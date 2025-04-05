@@ -36,8 +36,24 @@
     ]
   },
   "devDependencies": {
+    "@ethersproject/providers": "^5.8.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomicfoundation/hardhat-verify": "^2.0.13",
     "@openzeppelin/contracts": "^4.8.2",
-    "hardhat": "^2.12.7"
+    "@typechain/ethers-v5": "^11.1.2",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^5.2.1",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.2.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.12.7",
+    "hardhat-gas-reporter": "^2.2.2",
+    "solidity-coverage": "^0.8.14",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.8.3"
   }
 }
