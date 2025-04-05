@@ -40,6 +40,8 @@ function App() {
     }
 
     setOccasions(occasions)
+    console.log("Loaded occasions:", occasions)
+
 
     window.ethereum.on('accountsChanged', async () => {
       const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' })
